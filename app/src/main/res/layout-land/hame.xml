@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/selection_name"
+        android:gravity="bottom"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="250dp"
+            android:orientation="vertical">
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="150dp"
+                android:layout_height="250dp"
+                android:src="@drawable/boy"
+                android:id="@+id/ivBoy"
+                android:outlineAmbientShadowColor="#E8F30622"
+                android:outlineSpotShadowColor="#E1CF22EC"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="50dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="250dp"
+            android:orientation="vertical">
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="150dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="80dp"
+                android:outlineAmbientShadowColor="#E8F30622"
+                android:outlineSpotShadowColor="#E1CF22EC"
+                android:src="@drawable/badth"
+                android:id="@+id/ivBath"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="horizontal">
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="150dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="80dp"
+                android:outlineAmbientShadowColor="#E8F30622"
+                android:outlineSpotShadowColor="#E1CF22EC"
+                android:src="@drawable/girl"
+                android:id="@+id/ivGirl"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

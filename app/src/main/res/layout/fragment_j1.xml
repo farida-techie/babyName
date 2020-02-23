@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".boynamesFragment.A1Fragment"
+    android:background="#D87813">
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/listView_J1"/>
+</FrameLayout>
